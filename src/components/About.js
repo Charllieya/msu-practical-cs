@@ -10,7 +10,9 @@ const About = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12"> [about] </div>{" "}
+          <div className="col-sm-12">
+            <h2>About the Author </h2>
+          </div>{" "}
           {/* <img src="/img/flyer.png" alt="" /> */}
         </div>{" "}
       </div>{" "}

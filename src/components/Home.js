@@ -6,7 +6,9 @@ const Home = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12"> [Home] </div>{" "}
+          <div className="col-sm-12">
+            <h2>WELCOME TO MISSISSIPPI STATE UNIVERSITY LIBRARIES </h2>
+          </div>{" "}
           {/* <img src="/img/flyer.png" alt="" /> */}
         </div>{" "}
       </div>{" "}

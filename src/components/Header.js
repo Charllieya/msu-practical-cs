@@ -24,7 +24,7 @@ const Header = () => {
               <h1>MISSISSIPPI STATE UNIVERSITY&trade;</h1>
               <span>UNIVERSITY LIBRARIES</span>{" "}
             </div>{" "}
-            <div className="col-sm-4">
+            <div className="links col-sm-4">
               <Link to="/" title="Home" className="title">
                 {" "}
                 Home{" "}
@@ -35,7 +35,7 @@ const Header = () => {
               </Link>{" "}
               <Link to="/about" title="About" className="title">
                 {" "}
-                About Author{" "}
+                About{" "}
               </Link>{" "}
             </div>
           </div>

@@ -23,14 +23,19 @@ body {
 }
 
 .title {
-    color: #000;
+    margin-right: 7px;
+    padding: 0px 3px;
+    color: #fff;
     font-size: 25px;
-    display: inline;
-    text-decoration: none;
+    border-right: 2px solid #fff;
+}
+
+.links {
+    margin-top: 60px;
 }
 
 a:hover.title {
-    color: white;
+    color: #000;
 }
 
 a:hover {
@@ -64,9 +69,20 @@ span {
     font-size: 35px;
 }
 
+.guideHeading {
+    border-bottom: 2px solid #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.guideDesc {
+    margin-bottom: 355px;
+}
+
 .colophon {
     background-color: #710000;
     color: #fff;
     width: 100%;
-    top: 0px;
 }

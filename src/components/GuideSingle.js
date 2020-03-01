@@ -36,7 +36,12 @@ class GuideSingle extends Component {
       <div className="container guide-single">
         <div className="row">
           <div className="col-sm-12">
-            <h2> {guide.name} </h2> <h3> Description </h3>{" "}
+            <h2> {guide.name} </h2>
+          </div>{" "}
+        </div>{" "}
+        <div className="row">
+          <div className="guideDesc col-sm-12">
+            <h3 className="guideHeading"> Description </h3>{" "}
             <p> {guide.description} </p>
             <p>Created: {guide.created} </p>
             <p>
@@ -45,8 +50,8 @@ class GuideSingle extends Component {
                 {guide.name}
               </a>{" "}
             </p>{" "}
-          </div>{" "}
-        </div>{" "}
+          </div>
+        </div>
       </div>
     );
   }

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="colophon">
-        <footer className="container"> [footer] </footer>{" "}
+        <footer className="container"> Page Update: </footer>{" "}
       </div>
     </>
   );
