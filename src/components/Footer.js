@@ -20,38 +20,40 @@ const Footer = () => {
           <div className="row">
             <div className="col-sm-3">
               <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
+                <li>395 Hardy Rd.</li>
+                <li>
+                  P.O. Box 5408 <li>Mississippi State, MS 39762-5408</li>
+                </li>
+                <li>(662) 325-7668</li>
+                <li>(662) 325-0011</li>
+                <li>(662) 325-8183</li>
               </ul>
             </div>
             <div className="col-sm-3">
               <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
+                <li>About</li>
+                <li>Library Hours</li>
+                <li>Directions, Maps, and Parking</li>
+                <li>Jobs</li>
+                <li>Departments</li>
               </ul>
             </div>
             <div className="col-sm-3">
               <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
+                <li>Libraries and Centers</li>
+                <li>Special Collections</li>
+                <li>Special Events</li>
+                <li>Giving to MSU Libraries</li>
+                <li>Muesums and Exhibits</li>
               </ul>
             </div>
             <div className="col-sm-3">
               <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
+                <li>All Guides</li>
+                <li>Workshops</li>
+                <li>Tutorials</li>
+                <li>Library Instruction</li>
+                <li>Software Training</li>
               </ul>
             </div>
           </div>
@@ -61,12 +63,9 @@ const Footer = () => {
         <footer className="container">
           <div className="row">
             <div className="col-sm-8">
-              <ul>
-                <li>Page Update: </li>
-                <li>Contact Us: </li>
-                <li>Page Update: </li>
-                <li>Page Update: </li>
-              </ul>
+              <p>
+                Copyright &copy; 2020 Charllieya Smith. All Rights Reserved.{" "}
+              </p>
             </div>
           </div>
         </footer>{" "}

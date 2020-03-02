@@ -12,21 +12,20 @@ const About = () => {
       <div className="about-wrapper">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8">
+            <div className="col-sm-7">
               <h3>Meet Charllieya Smith</h3>
               <p>
-                Charllieya graduated with a B.S. in Computer Science in 2017
-                from Tougaloo College. She found out about the Mississippi
-                Coding Academy (MSCA) while researching different opportunities
-                that could help me further my education in coding as well as
-                allow me to continue to craft and better my skills. I think my
-                favorite thing about software development is that it is very
-                diverse in topics and careers. I can learn about IT as well as
-                building a webpage and the best thing about it is that
-                everything coincides with one another.
+                Charllieya graduated from Tougaloo College with a Bachelor of
+                Science degree in Computer Science in 2017. She found out about
+                the Mississippi Coding Academy (MSCA) while researching
+                different opportunities that could help her further her
+                education in coding as well as allow her to continue to craft
+                and better her skills. Charllieya's favorite thing about
+                software development is that it is very diverse in topics and
+                careers.
               </p>
             </div>{" "}
-            <div className="col-sm-4">
+            <div className="col-sm-5">
               <img
                 className="img-responsive main-img"
                 src="/img/Charllieya.jpg"

@@ -22,7 +22,7 @@ const Header = () => {
             <div className="col-sm-7">
               {" "}
               <h1>MISSISSIPPI STATE UNIVERSITY&trade;</h1>
-              <span>UNIVERSITY LIBRARIES</span>{" "}
+              <span className="span-header">UNIVERSITY LIBRARIES</span>{" "}
             </div>{" "}
             <div className="links col-sm-4">
               <Link to="/" title="Home" className="title">
