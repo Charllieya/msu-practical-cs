@@ -4,12 +4,14 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12">
-            <h2>WELCOME TO MISSISSIPPI STATE UNIVERSITY LIBRARIES </h2>
+      <div className="hero-wrapper">
+        <div className="picture-hero-wrapper container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h2>WELCOME TO MISSISSIPPI STATE UNIVERSITY LIBRARIES </h2>
+              <h2>CLICK THE NAV</h2>
+            </div>{" "}
           </div>{" "}
-          {/* <img src="/img/flyer.png" alt="" /> */}
         </div>{" "}
       </div>{" "}
     </>

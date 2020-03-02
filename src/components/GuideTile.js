@@ -5,7 +5,7 @@ const GuideTile = props => {
   let guide = props;
   return (
     <div className="col-sm-3">
-      <p>
+      <p className="guideTile-color">
         {" "}
         <Link to={`guide/${guide.id}`} title={guide.name}>
           {" "}

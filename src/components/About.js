@@ -13,7 +13,11 @@ const About = () => {
           <div className="col-sm-12">
             <h2>About the Author </h2>
           </div>{" "}
-          {/* <img src="/img/flyer.png" alt="" /> */}
+          <img
+            className="guideDesc"
+            src="/img/profile.png"
+            alt="profile picture"
+          />
         </div>{" "}
       </div>{" "}
     </>
