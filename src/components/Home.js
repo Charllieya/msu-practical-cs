@@ -1,15 +1,34 @@
 import React from "react";
-// import GuideTile from "./GuideTile";
 
 const Home = () => {
   return (
     <>
-      <div className="hero-wrapper">
-        <div className="picture-hero-wrapper container">
+      <div>
+        <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <h2>WELCOME TO MISSISSIPPI STATE UNIVERSITY LIBRARIES </h2>
-              <h2>CLICK THE NAV</h2>
+              {" "}
+              <h2> WELCOME TO MISSISSIPPI STATE UNIVERSITY LIBRARIES</h2>
+            </div>{" "}
+          </div>
+        </div>
+      </div>
+      <div className="hero-wrapper">
+        <div className="picture-hero-wrapper hero-edits container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h2 className="hero-edits">
+                {" "}
+                CLICK "ALL GUIDES" TO ACCESS SERVICES{" "}
+              </h2>
+              <h4>Services Provided For: </h4>
+              <ul>
+                <li>Undergraduate Students</li>
+                <li>Graduate Students</li>
+                <li>Faculty and Instructors</li>
+                <li>Scholars</li>
+                <li>Alumni</li>
+              </ul>
             </div>{" "}
           </div>{" "}
         </div>{" "}

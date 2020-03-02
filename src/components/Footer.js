@@ -8,8 +8,68 @@ import React from "react"; //opening line
 const Footer = () => {
   return (
     <>
+      <div className="footer-nav">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h4>ABOUT MSU LIBRARIES</h4>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-3">
+              <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+            </div>
+            <div className="col-sm-3">
+              <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+            </div>
+            <div className="col-sm-3">
+              <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+            </div>
+            <div className="col-sm-3">
+              <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="colophon">
-        <footer className="container"> Page Update: </footer>{" "}
+        <footer className="container">
+          <div className="row">
+            <div className="col-sm-8">
+              <ul>
+                <li>Page Update: </li>
+                <li>Contact Us: </li>
+                <li>Page Update: </li>
+                <li>Page Update: </li>
+              </ul>
+            </div>
+          </div>
+        </footer>{" "}
       </div>
     </>
   );
