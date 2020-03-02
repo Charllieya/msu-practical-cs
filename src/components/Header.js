@@ -11,7 +11,7 @@ const Header = () => {
       <div className="branding">
         <header className="headername container">
           <div className="row">
-            <div className="col-sm-1">
+            <div className="hidden-xs col-sm-1">
               <img
                 className="statelogo"
                 src="/img/mstate_logo.png"

@@ -33,7 +33,7 @@ class GuideSection extends Component {
       <div className="main border-top container">
         <div className="row">
           <div className="col-sm-12">
-            <h2> Guides </h2>
+            <h2> GUIDES </h2>
             <h3 className="guideHeading">Showing 180 Guides</h3>
           </div>{" "}
           {guideTiles}{" "}

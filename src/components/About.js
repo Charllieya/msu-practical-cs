@@ -8,7 +8,13 @@ import React from "react"; //opening line
 const About = () => {
   return (
     <>
-      <h2>About the Author </h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <h2>ABOUT THE AUTHOR</h2>
+          </div>
+        </div>
+      </div>
       <div className="about-wrapper">
         <div className="container">
           <div className="row">
@@ -24,16 +30,68 @@ const About = () => {
                 software development is that it is very diverse in topics and
                 careers.
               </p>
-            </div>{" "}
+              <p>
+                <a
+                  href="https://charllieya.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Link To Portfolio Page
+                </a>
+              </p>
+            </div>
             <div className="col-sm-5">
               <img
                 className="img-responsive main-img"
                 src="/img/Charllieya.jpg"
-                alt="profile picture"
+                alt="profile"
               />
             </div>{" "}
           </div>{" "}
         </div>{" "}
+      </div>
+      <div className="news-section-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h2>What's Happening at MSU?</h2>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-4">
+              <h3>MSU News</h3>
+              <img
+                className="msuStaff-img"
+                src="/img/msuStaff.png"
+                alt="MSU Libraries"
+                srcset=""
+              />
+            </div>
+            <div className="col-sm-4">
+              <h3>Workshops</h3>
+              <ol>
+                <li>Crafting the Winning Curriculum Vitae (Online)</li>
+                <li>Using Chicago and Turabian Citation Style</li>
+                <li>Using APA Citation Style</li>
+                <li>Introduction to EndNote Desktop (Online)</li>
+                <li>Introduction to ICPSR</li>
+                <li>
+                  Thesis and Dissertation Formatting ADA Web-Accessibility
+                </li>
+              </ol>
+            </div>
+            <div className="col-sm-4">
+              <h3>About MSU Libraries</h3>
+              <p>
+                We are committed to Mississippi State University's overall goals
+                of teaching, research, and service, and to making MSU Libraries
+                "The Place" with the facilities, services, resources,
+                assistance, and support that you need.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
