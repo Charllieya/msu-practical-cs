@@ -1,9 +1,4 @@
 import React from "react"; //opening line
-// import { Link } from 'react-router-dom'
-
-//empty tag brackets <> & </> in a react component you can only return ONE thing. The way around that is too surround two siblings with empty tags, which makes it seem like you only are returning one thing, a lot there are two things instead that one thing. Its like wrapping in an invisible one thing.
-
-//[footer]: brackets don't mean anything, they are just placeholders.
 
 const Footer = () => {
   return (
@@ -24,9 +19,9 @@ const Footer = () => {
                 <li>
                   P.O. Box 5408 <li>Mississippi State, MS 39762-5408</li>
                 </li>
-                <li>(662) 325-7668</li>
-                <li>(662) 325-0011</li>
-                <li>(662) 325-8183</li>
+                <li>(662) 123-7668</li>
+                <li>(662) 456-0011</li>
+                <li>(662) 769-8183</li>
               </ul>
             </div>
             <div className="col-sm-3">
@@ -62,7 +57,7 @@ const Footer = () => {
       <div className="colophon">
         <footer className="container">
           <div className="row">
-            <div className="col-sm-8">
+            <div className="col-sm-12">
               <p>
                 Copyright &copy; 2020 Charllieya Smith. All Rights Reserved.{" "}
               </p>
@@ -75,5 +70,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// export the const of footer

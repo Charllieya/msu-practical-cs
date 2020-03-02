@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import nametoLowerCase from '../helpers/nameToLowerCase'
-// import { Link } from "react-router-dom";
 
 class GuideSingle extends Component {
   constructor() {
@@ -117,14 +115,14 @@ class GuideSingle extends Component {
         <div className="news-section-wrapper">
           <div className="container">
             <div className="row">
-              <div className="col-sm-12">
+              <div className="hidden-xs col-sm-12">
                 <h2>What's Happening at MSU?</h2>
               </div>
             </div>
           </div>
           <div className="container">
             <div className="row">
-              <div className="col-sm-4">
+              <div className="hidden-xs col-sm-4">
                 <h3>MSU News</h3>
                 <img
                   className="msuStaff-img"
@@ -133,7 +131,7 @@ class GuideSingle extends Component {
                   srcset=""
                 />
               </div>
-              <div className="col-sm-4">
+              <div className="hidden-xs col-sm-4">
                 <h3>Workshops</h3>
                 <ol>
                   <li>Crafting the Winning Curriculum Vitae (Online)</li>
@@ -146,7 +144,7 @@ class GuideSingle extends Component {
                   </li>
                 </ol>
               </div>
-              <div className="col-sm-4">
+              <div className="hidden-xs col-sm-4">
                 <h3>About MSU Libraries</h3>
                 <p>
                   We are committed to Mississippi State University's overall

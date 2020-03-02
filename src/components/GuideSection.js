@@ -9,8 +9,6 @@ class GuideSection extends Component {
       guides: []
     };
   }
-  //Life Cycle Hook: a method
-  //Fetch promise based system
 
   componentDidMount() {
     fetch(
